@@ -13,6 +13,13 @@
 		0128C8BF1CA8D11E00DF78E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0128C8BE1CA8D11E00DF78E8 /* Assets.xcassets */; };
 		0128C8C21CA8D11E00DF78E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128C8C01CA8D11E00DF78E8 /* LaunchScreen.storyboard */; };
 		0128C8CA1CA8D60400DF78E8 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0128C8C91CA8D60400DF78E8 /* pokemon.csv */; };
+		0128C8CF1CA8D8A600DF78E8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0128C8CE1CA8D8A600DF78E8 /* Pokemon.swift */; };
+		0B3A8CC46F0191D3D1B21B08 /* Pods_Pokedex_GulpTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D875074C3139622415A06 /* Pods_Pokedex_GulpTech.framework */; };
+		B71C69311CA97018006E0406 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C69301CA97018006E0406 /* PokeCell.swift */; };
+		B71C69331CA97BFA006E0406 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C69321CA97BFA006E0406 /* csv.swift */; };
+		B71C69371CA980E1006E0406 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B71C69361CA980E1006E0406 /* music.mp3 */; };
+		B71C693A1CA983F9006E0406 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B71C69381CA98264006E0406 /* Pokemon Hollow.ttf */; };
+		B71C693B1CA983F9006E0406 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B71C69391CA98265006E0406 /* Pokemon Solid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		0128C8C11CA8D11E00DF78E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0128C8C31CA8D11E00DF78E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0128C8C91CA8D60400DF78E8 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		0128C8CE1CA8D8A600DF78E8 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		359D875074C3139622415A06 /* Pods_Pokedex_GulpTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_GulpTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C02626206EE4E225691A183 /* Pods-Pokedex-GulpTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-GulpTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-GulpTech/Pods-Pokedex-GulpTech.release.xcconfig"; sourceTree = "<group>"; };
+		B71C69301CA97018006E0406 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		B71C69321CA97BFA006E0406 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		B71C69361CA980E1006E0406 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		B71C69381CA98264006E0406 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		B71C69391CA98265006E0406 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		BEAD126D92A468C797A15088 /* Pods-Pokedex-GulpTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-GulpTech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-GulpTech/Pods-Pokedex-GulpTech.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3A8CC46F0191D3D1B21B08 /* Pods_Pokedex_GulpTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				0128C8B61CA8D11E00DF78E8 /* Pokedex-GulpTech */,
 				0128C8B51CA8D11E00DF78E8 /* Products */,
+				52C6BF121DAD70C891614CE4 /* Pods */,
+				84C03C3D5AC808877019FD28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,78 @@
 		0128C8B61CA8D11E00DF78E8 /* Pokedex-GulpTech */ = {
 			isa = PBXGroup;
 			children = (
+				0128C8CB1CA8D85700DF78E8 /* Model */,
+				0128C8CC1CA8D85F00DF78E8 /* View */,
+				0128C8CD1CA8D86500DF78E8 /* Controller */,
+				B71C69341CA97CCA006E0406 /* Util */,
+				B71C69351CA97CEB006E0406 /* Resources */,
 				0128C8B71CA8D11E00DF78E8 /* AppDelegate.swift */,
-				0128C8B91CA8D11E00DF78E8 /* ViewController.swift */,
 				0128C8BB1CA8D11E00DF78E8 /* Main.storyboard */,
 				0128C8BE1CA8D11E00DF78E8 /* Assets.xcassets */,
-				0128C8C91CA8D60400DF78E8 /* pokemon.csv */,
 				0128C8C01CA8D11E00DF78E8 /* LaunchScreen.storyboard */,
 				0128C8C31CA8D11E00DF78E8 /* Info.plist */,
 			);
 			path = "Pokedex-GulpTech";
+			sourceTree = "<group>";
+		};
+		0128C8CB1CA8D85700DF78E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0128C8CE1CA8D8A600DF78E8 /* Pokemon.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0128C8CC1CA8D85F00DF78E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B71C69301CA97018006E0406 /* PokeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0128C8CD1CA8D86500DF78E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0128C8B91CA8D11E00DF78E8 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		52C6BF121DAD70C891614CE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEAD126D92A468C797A15088 /* Pods-Pokedex-GulpTech.debug.xcconfig */,
+				9C02626206EE4E225691A183 /* Pods-Pokedex-GulpTech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84C03C3D5AC808877019FD28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359D875074C3139622415A06 /* Pods_Pokedex_GulpTech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B71C69341CA97CCA006E0406 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B71C69321CA97BFA006E0406 /* csv.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B71C69351CA97CEB006E0406 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B71C69381CA98264006E0406 /* Pokemon Hollow.ttf */,
+				B71C69391CA98265006E0406 /* Pokemon Solid.ttf */,
+				B71C69361CA980E1006E0406 /* music.mp3 */,
+				0128C8C91CA8D60400DF78E8 /* pokemon.csv */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0128C8C61CA8D11E00DF78E8 /* Build configuration list for PBXNativeTarget "Pokedex-GulpTech" */;
 			buildPhases = (
+				758F3F18992C379550284C80 /* Check Pods Manifest.lock */,
 				0128C8B01CA8D11E00DF78E8 /* Sources */,
 				0128C8B11CA8D11E00DF78E8 /* Frameworks */,
 				0128C8B21CA8D11E00DF78E8 /* Resources */,
+				23AF1B5DCA58EAFF97C3F3C7 /* Embed Pods Frameworks */,
+				917BC00C2B02592C03886D10 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +211,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71C693A1CA983F9006E0406 /* Pokemon Hollow.ttf in Resources */,
+				B71C693B1CA983F9006E0406 /* Pokemon Solid.ttf in Resources */,
+				B71C69371CA980E1006E0406 /* music.mp3 in Resources */,
 				0128C8C21CA8D11E00DF78E8 /* LaunchScreen.storyboard in Resources */,
 				0128C8BF1CA8D11E00DF78E8 /* Assets.xcassets in Resources */,
 				0128C8CA1CA8D60400DF78E8 /* pokemon.csv in Resources */,
@@ -135,13 +223,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23AF1B5DCA58EAFF97C3F3C7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pokedex-GulpTech/Pods-Pokedex-GulpTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		758F3F18992C379550284C80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		917BC00C2B02592C03886D10 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pokedex-GulpTech/Pods-Pokedex-GulpTech-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0128C8B01CA8D11E00DF78E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71C69311CA97018006E0406 /* PokeCell.swift in Sources */,
 				0128C8BA1CA8D11E00DF78E8 /* ViewController.swift in Sources */,
 				0128C8B81CA8D11E00DF78E8 /* AppDelegate.swift in Sources */,
+				0128C8CF1CA8D8A600DF78E8 /* Pokemon.swift in Sources */,
+				B71C69331CA97BFA006E0406 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +393,7 @@
 		};
 		0128C8C71CA8D11E00DF78E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAD126D92A468C797A15088 /* Pods-Pokedex-GulpTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pokedex-GulpTech/Info.plist";
@@ -265,6 +405,7 @@
 		};
 		0128C8C81CA8D11E00DF78E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C02626206EE4E225691A183 /* Pods-Pokedex-GulpTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pokedex-GulpTech/Info.plist";
@@ -293,6 +434,7 @@
 				0128C8C81CA8D11E00DF78E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
