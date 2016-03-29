@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AC2D08C12482D2C9CD8C7CC5'
+               BlueprintIdentifier = '1C6E039E577497B51F0FD249'
                BlueprintName = 'Pods-Pokedex-GulpTech'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Pokedex_GulpTech.framework'>

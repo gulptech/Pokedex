@@ -15,6 +15,7 @@
 		0128C8CA1CA8D60400DF78E8 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0128C8C91CA8D60400DF78E8 /* pokemon.csv */; };
 		0128C8CF1CA8D8A600DF78E8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0128C8CE1CA8D8A600DF78E8 /* Pokemon.swift */; };
 		013F154B1CA9D21A000C895D /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F154A1CA9D21A000C895D /* PokemonDetailVC.swift */; };
+		013F154D1CAA27B5000C895D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F154C1CAA27B5000C895D /* Constants.swift */; };
 		0B3A8CC46F0191D3D1B21B08 /* Pods_Pokedex_GulpTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359D875074C3139622415A06 /* Pods_Pokedex_GulpTech.framework */; };
 		B71C69311CA97018006E0406 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C69301CA97018006E0406 /* PokeCell.swift */; };
 		B71C69331CA97BFA006E0406 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C69321CA97BFA006E0406 /* csv.swift */; };
@@ -34,6 +35,7 @@
 		0128C8C91CA8D60400DF78E8 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		0128C8CE1CA8D8A600DF78E8 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		013F154A1CA9D21A000C895D /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		013F154C1CAA27B5000C895D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		359D875074C3139622415A06 /* Pods_Pokedex_GulpTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_GulpTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C02626206EE4E225691A183 /* Pods-Pokedex-GulpTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-GulpTech.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-GulpTech/Pods-Pokedex-GulpTech.release.xcconfig"; sourceTree = "<group>"; };
 		B71C69301CA97018006E0406 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				B71C69321CA97BFA006E0406 /* csv.swift */,
+				013F154C1CAA27B5000C895D /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			files = (
 				B71C69311CA97018006E0406 /* PokeCell.swift in Sources */,
 				0128C8BA1CA8D11E00DF78E8 /* ViewController.swift in Sources */,
+				013F154D1CAA27B5000C895D /* Constants.swift in Sources */,
 				0128C8B81CA8D11E00DF78E8 /* AppDelegate.swift in Sources */,
 				013F154B1CA9D21A000C895D /* PokemonDetailVC.swift in Sources */,
 				0128C8CF1CA8D8A600DF78E8 /* Pokemon.swift in Sources */,

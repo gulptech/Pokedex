@@ -55,7 +55,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             for row in rows {
                 if let pokeId = row["id"], let pokeName = row["identifier"] {
-                    let poke = Pokemon(name: pokeName, pokedexId: Int(pokeId)!)
+                    let poke = Pokemon(name: pokeName, pokedexId: pokeId)
                     pokemon.append(poke)
                 }
             }
@@ -140,6 +140,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         collection.reloadData()
     }
+    
+    func searchBarTextDidEndEditing(searchBar: UISearchBar) {
+        view.endEditing(true)
+    }
+    
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "PokemonDetailVC" {
